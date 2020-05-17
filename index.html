@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anushka's Fitness club</title>
+    <link rel="icon" href="favicon.ico">
+</head>
+<link href="https://fonts.googleapis.com/css?family=Lato|Manrope|Roboto+Condensed&display=swap" rel="stylesheet">
+
+
+<style>
+    /* CSS Reset */
+    body{
+        font-family:'Baloo Bhai',cursive ;
+        color:white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/l.jpg');
+        /* height: 5000px; */
+        /* width: 200px; */
+    }
+
+    p{
+      color: white;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .left{
+        margin:0px 0px auto;
+        position: absolute;
+        left:5px;
+        top:10px;
+        display: inline-block;
+        /* border: 2px solid red; */
+
+    }
+    .left img{
+        margin:0px 22px auto;
+        width:80px;
+        background-image: rgb(83, 169, 226);
+    }
+    .left div{
+        /* line-height: 10px; */
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .mid{
+        display: block;
+        width:45%;
+        margin:5px auto;
+        /* border: 2px solid red; */
+
+    }
+
+    .right{
+        position: absolute;
+        right:3px;
+        top:24px;
+        display: inline-block;
+        /* border: 5px solid red; */
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 21px;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding:30px 15px;
+    }
+    .navbar li a:hover, .navbar li a:active{
+        text-decoration: underline;
+        color:grey;
+    }
+    .btn{
+        font-family:'Baloo Bhai',cursive ;
+        margin:0px 9px;
+        background-color: black;
+        color:white;
+        padding:4px 14px;
+        border:2px solid white;
+        border-radius: 5px;
+        font-size:20 px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: grey;
+    }
+    .container{
+        /* left:50px; */
+        border:2px solid white;
+        margin:120px 50px;
+        padding:30px;
+        width:33%;
+        border-radius:9px;
+        /* font-weight: bold; */
+    }
+    .form-group input{
+
+        font-family:'Baloo Bhai',cursive ;
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding:1px;
+        border: 2px solid white;
+        margin: 11px auto;
+        font-size: 18px;
+        border-radius: 8px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width:23%;
+        margin:20px auto;
+
+    }
+
+</style>
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/y.png" alt="">
+            <div>Fitness Club</div>
+
+        </div>
+
+        <!-- mid box for navigation bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Know</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym Of Tal Now</h1>
+        <form action="mailto:anushkaporwal1419@gmail.com">
+            <div class="form-group">
+                <input type="text" name="yourName" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="yourAge" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="yourGender" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="yourLocality" placeholder="Enter Your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="yourPhoneno." placeholder="Enter Your Phone No.">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    <p id="Copyright">© 2020 Copyright Reserved.</p>
+</body>
+</html>

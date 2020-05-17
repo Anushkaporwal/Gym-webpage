@@ -1,0 +1,40 @@
+body{
+
+  margin: 0;
+  text-align:center;
+
+
+}
+
+h1{
+
+  text-align: center;
+  color: #393232;
+  text-decoration: underline;
+  font-size: 4rem;
+  line-height: 3.7;
+  font-family: 'Sacramento', cursive;
+
+}
+a{
+  color: #11999E;
+  margin: 10px 10px;
+  text-decoration: none;
+  font-size: 2rem;
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+  color: #393e46;
+}
+
+
+p{
+
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+}
